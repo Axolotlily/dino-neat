@@ -67,7 +67,7 @@ function animate() {
     if(!done()){
 
         for(let iter = 0; iter < frameRate; iter ++){
-            pseudo_speed = 80 + Math.floor(score/10);
+            pseudo_speed = 80 + Math.floor(score/2);
             speed = -findVelocity(findWidth(pseudo_speed));
             score = Math.floor(dCount/5);
             if(land_x <= -findWidth(2404)){ 
